@@ -3,6 +3,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* Header banner */
 .banner {
     background-image: url(../images/banner/banner3.png);
     background-size: contain;
@@ -44,4 +45,111 @@
     border-radius: 5px;
     border-style: none;
 
+}
+
+/* My failures Section */
+.my-failures {
+    height: 898px;
+    display: flex;
+    margin-top: 130px;
+    margin-left: 100px;
+
+
+
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+
+.failures-text {
+    text-align: left;
+    margin-top: 250px;
+    margin-left: 87px;
+    padding-right: 250px;
+}
+
+.fa-solid {
+    color: green;
+
+}
+
+.section-description {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 11px;
+    margin-bottom: 29px;
+}
+
+.checked-text {
+    line-height: 26px;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* My plans section */
+
+.my-plans {
+    text-align: center;
+}
+
+.plans-container {
+    display: flex;
+    gap: 86px;
+    margin: 50px 250px;
+
+}
+
+
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #151414;
+
+}
+
+.description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 16px;
+}
+
+/* Positive mindset section */
+
+.positive-mindset {
+    background-image: url(../images/watch.png), url(../images/gradient1.png);
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+    background-blend-mode: overlay;
+
+    margin: 130px 100px;
+}
+
+.section-text {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 64px;
+    padding-top:60px;
+
+
+}
+
+.section-btn {
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    border-style: none;
+    margin: 25px 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
 }
