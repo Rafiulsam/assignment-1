@@ -5,11 +5,9 @@
 
 /* Header banner */
 .banner {
-    background-image: url(../images/banner/banner3.png);
+    background-image: url(../images/banner/banner2.png);
     background-size: contain;
-    width: 1400px;
-    height: 707px;
-
+    background-repeat: no-repeat;
 }
 
 .banner-text {
@@ -19,7 +17,6 @@
 }
 
 .text-title {
-    color: #fff;
     font-weight: 800;
     font-size: 45px;
     margin-bottom: 24px;
@@ -28,7 +25,6 @@
 }
 
 .text-description {
-    color: #fff;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
